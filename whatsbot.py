@@ -83,4 +83,5 @@ def main():
         send_message(friend_name,str(bot))
     cb.browser.close()
 
-main()
+if __name__ == "__main__":
+    main()
